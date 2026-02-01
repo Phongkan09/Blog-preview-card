@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Medium';
+  src: url('assets/fonts/static/Figtree-Medium.ttf');
+}
+@font-face {
+    font-family: 'Bold';
+    src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Medium';
+}
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20% auto;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 5px 5px 0 0 black;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    width: 366px;
+    height: auto;
+}
+img[src="assets/images/illustration-article.svg"]{
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.head{
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-family: 'Bold';
+}
+img[src="assets/images/image-avatar.webp"]{
+    width: 34px;
+    height: 35px;
+}
+.date{
+    font-size: 14px;
+    color: hsl(0, 0%, 7%); 
+}
+.topic{
+    font-family: 'Bold';
+    margin: 10px 0;
+    font-size: 24px;
+}
+.explain{
+    font-size: 16px;
+    color: hsl(0, 0%, 42%);
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 190px 5px 0;
+}
+.name{
+    font-family: 'Bold';
+}
